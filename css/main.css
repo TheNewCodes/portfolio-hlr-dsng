@@ -1,0 +1,154 @@
+/* Reset */
+* {  
+    font-family: sans-serif , monospace;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background: #f4f4f4;
+         }
+
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#logo {
+    width: 20%;
+}
+
+/* Text Head */
+
+p { 
+    display: inline-block;
+    font-size: 1vw;
+    line-height: 1.9em;
+}
+
+p a {
+    color: #267bd0;
+    text-decoration: none;   
+}
+
+p a:hover {
+    color: #111189;
+    text-decoration: underline;
+}
+
+/* NAVBAR */
+
+ul#nav {
+    display: inline-block;
+    word-spacing: 15px;
+    font-size: 2vw;
+}
+
+li.nav {
+    display: inline; 
+}
+
+li a {
+     color: #606060;
+     text-decoration: none;
+}
+
+/* Nav opacity all others 0.5 */
+
+ul:hover li:not(:hover) {
+    opacity: 0.5;
+}
+
+
+/* Stage */
+
+#stageBanner {
+    display: inline-block;
+    width: 40%;    
+    margin: 0;
+    padding: 4.9%;
+    
+}
+
+
+
+/* Footer & Impressum */
+
+article {
+    display: inline;
+}
+
+/* Responsive */
+
+/* Tablet */
+
+    @media screen and (max-width: 1600px) {
+        
+        
+        /* Text Head */
+        
+        p { 
+    display: inline-block;
+    font-size: 1vw;
+    line-height: 1.9em;
+}
+
+        
+        /* Stage */
+
+#stageBanner {
+    width: 35%;    
+    padding: 7.2%;
+}    
+         /* NAVBAR */
+
+    ul#nav {
+        word-spacing: 15%;
+        font-size: 2.5vh;
+        text-align: right;
+    }
+
+        /* Mobile */
+
+@media screen and (max-width: 540px) {
+    
+    /* Text Header */ 
+        
+    p { 
+    display: inline-block;
+    font-size: 1vh;
+    line-height: normal;
+}
+    
+    /* NAVBAR */
+
+    ul#nav {
+        word-spacing: 0;
+        font-size: 6.2vw;
+        text-align: right;
+    }
+    
+    #wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+    /* Stage */
+
+#stageBanner {
+    width: 100%;   
+    padding: 0;
+}    
+    
+    /* Logo top right */
+    
+    #logo {
+    width: 100%;
+}
+
+    
+    
+}
+
+/*rumgeteste & neue Befehle*/
